@@ -12,7 +12,12 @@ client.user.setPresence({ game: { name: `Hakowanie.......` }, type: 0 });
 
 });
 
-
+client.on("message", (message) => {
+  if (!message.content.startsWith(prefix)) return;
+  if (message.content.startsWith(prefix + "github")) { 
+    message.channel.send("https://github.com/Maciu00/Discord-bot-js");
+}
+});
 
 
 client.on("message", (message) => {
