@@ -4,36 +4,10 @@ const { token, prefix } = require("./config/config.json");
 
 
 client.on('ready',  () =>{
-console.log(`                                        `);
-console.log(`                                    `);
-console.log(`                                     `);
-console.log(`                                           |---------------------------------------------|      `);
-console.log(`                                           |                     Witaj!!!                |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |        bot ${client.user.tag}  właczył się :)     | `);
-console.log(`                                           |                                             | `);
-console.log(`                                           |                   Komendy                   |  `);
-console.log(`                                           |        q?spam - Komenda do spamowania      |  `);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |     Token i prefix zmienia sie w pliku      |`);
-console.log(`                                           |     config.json, który znajduje się         |`);
-console.log(`                                           |           w foldrze config                  |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |                                             |`);
-console.log(`                                           |              github - Maciu00                               |`);
-console.log(`                                           |              bot by Maciu#3917              | `);
-console.log(`                                           |---------------------------------------------|                                         `);
-console.log(`                                                                                                        `);
-console.log(`                                    `);
-console.log(`                                     `);
-console.log(`                                   `);
+
+console.log(`bot ${client.user.tag}  właczył się :)`);
+console.log(`spis komend - q?pomoc `);
+console.log(`Autor Discord:Maciuś#3917 github:Maciu00  https://github.com/Maciu00/Discord-bot-js `);
 client.user.setPresence({ game: { name: `Hakowanie.......` }, type: 0 });
 
 });
