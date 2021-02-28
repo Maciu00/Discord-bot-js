@@ -1,0 +1,15 @@
+{
+  "name": "hakerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "z!test"
+  },
+  "author": "Maciu#3719",
+  "license": "ISC"
+}
